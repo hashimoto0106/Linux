@@ -1,0 +1,13 @@
+
+
+
+./configure -enable-shared -prefix=/usr
+make
+make install
+
+tar xfvz expect5.45.tar.gz
+cd expect5.45.3
+./configure
+make
+make install
+

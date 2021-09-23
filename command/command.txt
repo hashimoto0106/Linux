@@ -19,7 +19,16 @@
 [修得事項]
 mkdir -p /***/***/***
 ls -RF
+cp -a
 
-
+$ stat crontest.txt 
+  File: crontest.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   通常の空ファイル
+Device: b302h/45826d	Inode: 273480      Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2020-08-04 21:39:01.174779828 +0900
+Modify: 2020-08-04 21:39:01.174779828 +0900
+Change: 2020-08-04 21:39:01.174779828 +0900
+ Birth: -
 
 

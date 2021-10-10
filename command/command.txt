@@ -17,6 +17,13 @@
 
 ---------------------------------------------------------------------------------------------
 [修得事項]
+type python3
+find /var/log -mmin -10 -type f 
+find / -name "*.log" -not -path "*/.*"
+find / -name "*.log"
+find / -name .bashrc
+エラーメッセージ抑制 2>/dev/null
+alias
 mkdir -p /***/***/***
 ls -RF
 cp -a

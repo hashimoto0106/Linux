@@ -17,8 +17,23 @@
 
 ---------------------------------------------------------------------------------------------
 [修得事項]
+検索戻る Shift+n
+tail -f
+cat -n 行番号表示
+touch file_$(date +%H%M%S)
+|| 失敗したら次コマンド実行
+&& 成功したら次コマンド実行
+ls | tee result.txt  コマンドの結果をファイルに出力したいけど、標準出力でも出力を見たい
+>> :出力結果を追加保存
+find /etc/ -name "hashi" 2>/dev/null
+history | head
++指定したパターンが1回以上
+※指定したパターンが0回以上
+[^]該当しない
+[]で括られた文字のいずれか一つ
+?:任意の一文字
 type python3
-find /var/log -mmin -10 -type f 
+find /var/log -mmin -10 -type f
 find / -name "*.log" -not -path "*/.*"
 find / -name "*.log"
 find / -name .bashrc
@@ -28,7 +43,7 @@ mkdir -p /***/***/***
 ls -RF
 cp -a
 
-$ stat crontest.txt 
+$ stat crontest.txt
   File: crontest.txt
   Size: 0         	Blocks: 0          IO Block: 4096   通常の空ファイル
 Device: b302h/45826d	Inode: 273480      Links: 1

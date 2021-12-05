@@ -17,6 +17,10 @@
 
 ---------------------------------------------------------------------------------------------
 [修得事項]
+sudo apt ulist --upgrade
+sudo apt upgrade
+sudo apt autoremove
+sudo apt -y install
 検索戻る Shift+n
 tail -f
 cat -n 行番号表示

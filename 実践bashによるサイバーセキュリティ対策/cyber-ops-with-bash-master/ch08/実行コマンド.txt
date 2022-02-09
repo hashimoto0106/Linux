@@ -1,0 +1,6 @@
+bash tailcount.sh | bash livebar.sh
+❌bash tailcount.sh /var/log/lastlog | bash livebar.sh
+bash tailcount.sh /var/log/wtmp | bash livebar.sh
+bash tailcount.sh testdata.txt | bash livebar.sh
+
+testdata.txtに行を追加していく

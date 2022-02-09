@@ -1,0 +1,18 @@
+awk '$9 == 404 {print $1}' access.log | bash countem.sh
+cut -d' ' -f1 access.log | bash countem.sh | sort -rn
+awk '$1 == "192.168.0.37" {print $0}' access.log | cut -d' ' -f7 | bash countem.sh
+awk '$1 == "192.168.0.36" {print $0}' access.log | cut -d' ' -f7 | bash countem.sh
+awk '$1 == "192.168.0.36" {print $0}' access.log | cut -d' ' -f12-17 | uniq 
+=============================
+cut -d' ' -f 1,10 access.log | bash summer.sh
+cut -d' ' -f 1,10 access.log | bash summer.sh | sort -rn
+cut -d' ' -f 1,10 access.log | bash summer.sh | sort -k 2.1 -rn
+=============================
+cut -d' ' -f 1,10 access.log | bash summer.sh | sort -k 2.1 -rn | bash histogram.sh
+cut -d' ' -f 1,10 access.log | bash summer.sh | bash histogram.sh
+cut -d' ' -f 4,10 access.log
+cut -d' ' -f 4,10 access.log | cut -c2-
+awk '$4 ~ "12/Nov/2017" {print $0}' access.log | cut -d' ' -f 4,10 | cut -c14-15,22- | bash summer.sh | bash histogram.sh
+
+bash pagereq.sh 192.168.0.37 < access.log | sort -rn | head -5
+bash useragents.sh < access.log

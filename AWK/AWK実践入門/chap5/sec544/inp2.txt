@@ -1,0 +1,15 @@
+# inp2.txt
+atom  book cat dog
+iris
+jail
+king
+lion
+meat
+edge
+foot  king jail
+goal
+hand  lion meat
+
+book  foot edge
+cat  goal
+dog hand iris

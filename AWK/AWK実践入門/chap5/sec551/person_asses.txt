@@ -1,0 +1,9 @@
+start,海が好き,marin,mount
+marin,歌が好き,song,silent
+mount,夏が好き,summer,winter
+song,猫が好き,cat,dog
+winter,偏屈屋
+silent,寂しがり屋
+summer,おせっかい
+cat,甘えん坊
+dog,社交的

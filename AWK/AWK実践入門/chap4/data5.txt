@@ -1,0 +1,4 @@
+banana  	100	1
+apple   	250	2
+melon 	 	2000	3
+oranje		100	4

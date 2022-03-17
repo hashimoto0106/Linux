@@ -1,0 +1,14 @@
+lemon,banana,apple,kiwi
+lemon,banana,kiwi
+banana,orange,melon
+apple
+lemon,grape,kiwi
+banana,melon
+kiwi,lemon,banana
+grape,kiwi
+lemon,grape,kiwi
+orange,melon,kiwi,grape
+banana,melon
+apple,banana,melon
+kiwi,lemon,banana
+grape,kiwi,lemon,banana

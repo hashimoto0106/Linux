@@ -1,0 +1,6 @@
+{
+  for (i=1; i<=n; i++) {
+    printf("%s-" $i)
+  }
+  print ""
+}
